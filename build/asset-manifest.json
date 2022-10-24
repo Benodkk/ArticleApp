@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ApiArticleProject/static/css/main.5b944032.css",
+    "main.js": "/ApiArticleProject/static/js/main.2e853764.js",
+    "index.html": "/ApiArticleProject/index.html",
+    "main.5b944032.css.map": "/ApiArticleProject/static/css/main.5b944032.css.map",
+    "main.2e853764.js.map": "/ApiArticleProject/static/js/main.2e853764.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b944032.css",
+    "static/js/main.2e853764.js"
+  ]
+}
