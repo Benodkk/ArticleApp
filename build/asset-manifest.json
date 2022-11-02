@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ApiArticleProject/static/css/main.5b944032.css",
-    "main.js": "/ApiArticleProject/static/js/main.2e853764.js",
-    "index.html": "/ApiArticleProject/index.html",
-    "main.5b944032.css.map": "/ApiArticleProject/static/css/main.5b944032.css.map",
-    "main.2e853764.js.map": "/ApiArticleProject/static/js/main.2e853764.js.map"
+    "main.css": "/ArticleApp/static/css/main.5b944032.css",
+    "main.js": "/ArticleApp/static/js/main.3ed2f232.js",
+    "index.html": "/ArticleApp/index.html",
+    "main.5b944032.css.map": "/ArticleApp/static/css/main.5b944032.css.map",
+    "main.3ed2f232.js.map": "/ArticleApp/static/js/main.3ed2f232.js.map"
   },
   "entrypoints": [
     "static/css/main.5b944032.css",
-    "static/js/main.2e853764.js"
+    "static/js/main.3ed2f232.js"
   ]
 }

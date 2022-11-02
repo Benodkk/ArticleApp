@@ -1,109 +1,127 @@
-
-body{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0px;
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0px;
 }
-html,body, #root {
-    height:100%;
+html,
+body,
+#root {
+  height: 100%;
 }
 
 a:-webkit-any-link {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
-
-
 
 /* XXXXXX MAIN SITE XXXXXXXX */
 
-.mainSite{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.mainSite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.changeHowMany{
-    display: flex;
-    padding: 10px 0;
-}
-
-.articlesContainer{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-bottom: 20px;
+.changeHowMany {
+  display: flex;
+  padding: 10px 0;
 }
 
-.oneArticle{
-    display: flex;
-    border: 1px solid black;
+.articlesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 20px;
 }
-.nrArticle{
-    padding: 0 40px;
-    align-self: center;
+
+.oneArticle {
+  display: flex;
+  border: 1px solid black;
 }
-.articleInfo{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    padding: 30px;
+.nrArticle {
+  padding: 0 40px;
+  align-self: center;
 }
-.articleTitle{
-    transition: 0.5s ease all;
+.articleInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px;
 }
-.articleTitle:hover{
-    transform: translateY(-7px);
+.articleTitle {
+  transition: 0.5s ease all;
 }
-.imgLink{
-    overflow: hidden;
-    max-width: 400px;
+.articleTitle:hover {
+  transform: translateY(-7px);
 }
-.oneArticle img{
-    display: block;
-    transition: .5s ease all;
-    width: 100%; 
-    object-fit:cover;
+.imgLink {
+  overflow: hidden;
+  max-width: 400px;
+}
+.oneArticle img {
+  display: block;
+  transition: 0.5s ease all;
+  width: 100%;
+  object-fit: cover;
 }
 .imgLink:hover img {
-    transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.pages {
+  font-size: 25px;
+  display: flex;
+  gap: 12px;
+  padding: 10px;
+}
+
+.pageIndex {
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.4s ease-out;
+}
+.pageIndex:hover {
+  background-color: black;
+  color: white;
 }
 
 /* XXXXXX ARTICLE XXXXXXXX */
-.articlePageContainer{
-    display: flex;
-    justify-content: center;
-    height: 100%;
+.articlePageContainer {
+  display: flex;
+  justify-content: center;
+  height: 100%;
 }
-.articlePage{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    width: 1024px;
-    height: 100%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    box-sizing: border-box;
-    padding: 50px 20px;
+.articlePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 1024px;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-sizing: border-box;
+  padding: 50px 20px;
 }
-.articlePage img{
-    width: 500px;
+.articlePage img {
+  width: 500px;
 }
-.articleDescription{
-    display: flex;
+.articleDescription {
+  display: flex;
 }
-.articleSummary{
-    text-align: center;
+.articleSummary {
+  text-align: center;
 }
-.articleLink{
-    transition: 0.5s ease all;    
+.articleLink {
+  transition: 0.5s ease all;
 }
-.articleLink:hover{
-    transform: translateY(-7px);
+.articleLink:hover {
+  transform: translateY(-7px);
 }
 
-.error, .loading, .noData{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+.error,
+.loading,
+.noData {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }

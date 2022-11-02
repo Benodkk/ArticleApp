@@ -1,10 +1,11 @@
-function NoData() {
+import React from "react";
 
-    return(
-        <div className="noData">
-            <div>No Data!</div>
-        </div>  
-    )
+function NoData() {
+  return (
+    <div className="noData">
+      <div>No Data!</div>
+    </div>
+  );
 }
 
-export default NoData
+export default NoData;
